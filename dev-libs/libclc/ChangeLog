@@ -1,0 +1,31 @@
+# ChangeLog for dev-libs/libclc
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libclc/ChangeLog,v 1.6 2013/09/05 18:29:55 mgorny Exp $
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> libclc-0.0.1_pre20130524.ebuild,
+  libclc-0.0.1_pre20130819.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  27 Aug 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libclc-0.0.1_pre20130819.ebuild:
+  Keyword ~ppc
+
+  27 Aug 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libclc-0.0.1_pre20130819.ebuild:
+  Enable verbose build output and add die call after configure.py
+
+*libclc-0.0.1_pre20130819 (25 Aug 2013)
+
+  25 Aug 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +libclc-0.0.1_pre20130819.ebuild:
+  New snapshot.
+
+  29 Jul 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  libclc-0.0.1_pre20130524.ebuild:
+  Update HOMEPAGE and GIT_SRC for bug #477790.
+
+*libclc-0.0.1_pre20130524 (19 Jun 2013)
+
+  19 Jun 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +libclc-0.0.1_pre20130524.ebuild, +metadata.xml:
+  Initial commit, import of alexxy's ebuild from thhe x11 overlay.

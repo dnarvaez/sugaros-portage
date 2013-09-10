@@ -1,0 +1,34 @@
+# ChangeLog for app-editors/retext
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-editors/retext/ChangeLog,v 1.5 2013/09/05 14:20:33 ago Exp $
+
+  05 Sep 2013; Agostino Sarubbo <ago@gentoo.org> retext-4.0.1-r2.ebuild:
+  Stable for amd64, wrt bug #481940
+
+*retext-4.0.1-r2 (04 Sep 2013)
+
+  04 Sep 2013; Tom Wijsman <TomWij@gentoo.org> +retext-4.0.1-r2.ebuild:
+  Revision bump, correct pyenchant dependency because it no longer uses
+  PYTHON_USEDEP functionality.
+
+  29 Jun 2013; Tom Wijsman <TomWij@gentoo.org> retext-4.0.1-r1.ebuild,
+  retext-4.0.1.ebuild, retext-9999.ebuild:
+  Use PYTHON_USEDEP in RDEPEND, made RDEPEND additive to eclass dependencies;
+  thanks to jlec and ercpe.
+
+*retext-9999 (29 Jun 2013)
+*retext-4.0.1-r1 (29 Jun 2013)
+
+  29 Jun 2013; Tom Wijsman <TomWij@gentoo.org> +retext-4.0.1-r1.ebuild,
+  +retext-9999.ebuild:
+  Revision bump. Made symlink from /usr/bin/retext to /usr/bin/retext.py. Made
+  sure locales are respected by removing disabled locales. Removed unnecessary
+  inherit. Added live 9999 ebuild for testing purposes.
+
+*retext-4.0.1 (29 Jun 2013)
+
+  29 Jun 2013; Tom Wijsman <TomWij@gentoo.org> +metadata.xml,
+  +retext-4.0.1.ebuild:
+  New ebuild for app-editors/retext, a Qt-based text editor for Markdown and
+  reStructuredText. Fixes bug #445614, original ebuild by Manuel Rüger (mrueg),
+  adjusted by Johann Schmitz and some small changes by me.

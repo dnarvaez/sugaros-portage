@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare test
+DEPEND=dev-python/simplejson test? ( dev-python/feedparser ) =dev-lang/python-2*
+DESCRIPTION=Python library for serializing any arbitrary object graph into JSON
+EAPI=3
+HOMEPAGE=http://jsonpickle.github.com/ http://pypi.python.org/pypi/jsonpickle
+IUSE=test
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=dev-python/simplejson =dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://pypi/j/jsonpickle/jsonpickle-0.4.0.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	892e597faee02a5b94eb02ab512e7622	python	7aff825f110c83fa8c77f14ba3c71c47	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f
+_md5_=e5ce29f2217b02693f0d6e5b07a46b75

@@ -1,0 +1,28 @@
+# ChangeLog for dev-python/pillow
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pillow/ChangeLog,v 1.5 2013/08/28 11:15:21 ago Exp $
+
+  28 Aug 2013; Agostino Sarubbo <ago@gentoo.org> pillow-2.0.0-r1.ebuild:
+  Stable for x86, wrt bug #450086
+
+  30 Jul 2013; Agostino Sarubbo <ago@gentoo.org> pillow-2.0.0-r1.ebuild:
+  Stable for amd64, wrt bug #450086
+
+*pillow-2.0.0-r1 (10 Jun 2013)
+
+  10 Jun 2013; Mike Gilbert <floppym@gentoo.org> +pillow-2.0.0-r1.ebuild,
+  -pillow-2.0.0.ebuild:
+  Fixup docs and examples installation, bug 472908.
+
+  28 May 2013; Mike Gilbert <floppym@gentoo.org>
+  +files/imaging-1.1.7-no-xv.patch,
+  +files/pillow-2.0.0-delete_hardcoded_paths.patch,
+  +files/pillow-2.0.0-libm_linking.patch, pillow-2.0.0.ebuild:
+  Enable python3, add keywords from dev-python/imaging, apply a few patches.
+
+*pillow-2.0.0 (21 Apr 2013)
+
+  21 Apr 2013; Michał Górny <mgorny@gentoo.org> +metadata.xml,
+  +pillow-2.0.0.ebuild:
+  Introduce an initial ebuild for Pillow, a fork of Python Imaging Library.
+  Requested in bug #401009, as it became a dep of xhtml2pdf.

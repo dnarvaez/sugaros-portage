@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND=sci-electronics/voacapl dev-python/matplotlib[gtk] dev-python/basemap =dev-lang/python-2*
+DESCRIPTION=Scripts to prepare and plot VOACAP propagation predictions
+EAPI=3
+HOMEPAGE=http://www.qsl.net/hz1jw/pythonprop
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-electronics/voacapl dev-python/matplotlib[gtk] dev-python/basemap =dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/pythonprop/pythonprop-0.10.tar.gz
+_eclasses_=multilib	892e597faee02a5b94eb02ab512e7622	python	7aff825f110c83fa8c77f14ba3c71c47	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f
+_md5_=b54f99a3bfd29888d9c3d8239fe185d2

@@ -1,0 +1,17 @@
+# ChangeLog for app-misc/metromap
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-misc/metromap/ChangeLog,v 1.3 2013/05/31 15:06:33 maksbotan Exp $
+
+  31 May 2013; Maxim Koltsov <maksbotan@gentoo.org> metromap-0.1.4-r1.ebuild:
+  Fix python depends in 0.1.4-r1. Thanks to Nikoli.
+
+*metromap-0.1.4-r1 (16 Apr 2013)
+
+  16 Apr 2013; Maxim Koltsov <maksbotan@gentoo.org> +metromap-0.1.4-r1.ebuild:
+  Port to python-single-r1 eclass, thanks to Nikoli.
+
+*metromap-0.1.4 (21 May 2012)
+
+  21 May 2012; Maxim Koltsov <maksbotan@gentoo.org> +metadata.xml,
+  +metromap-0.1.4.ebuild:
+  Add app-misc/metromap, bug #260757. Thanks to Nikoli
